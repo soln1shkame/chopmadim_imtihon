@@ -1,0 +1,83 @@
+.how {
+    margin-top: 150px;
+}
+
+.how__info {
+    text-align: center;
+}
+
+.how__heading {
+    //  max-width: 500px;
+    //  width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 48.44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.how__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+}
+
+.how__item {
+    text-align: center;
+}
+
+.how__p {
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    width: 100%;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 50px;
+}
+
+.how__text {
+    margin: 0;
+    padding: 0;
+    max-width: 324px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 1041px) {
+    .how__text {
+        font-size: 18px;
+        transform: translateX(-10px);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .how__text {
+        font-size: 16px;
+        transform: translateX(-10px);
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .how__list {
+        flex-direction: column;
+        transform: translateX(-30px);
+    }
+    .how__heading {
+        font-size: 40px;
+    }
